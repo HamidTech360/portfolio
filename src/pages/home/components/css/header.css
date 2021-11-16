@@ -18,10 +18,11 @@
     font-size: 30px;
     color: #C84C5B;
     margin-right: 0px;
+    font-weight: 800;
 }
 .text-t{
     color: #C84C5B;
-    
+    font-weight: 800;
 }
 @media screen and (max-width:768px){
     .header{

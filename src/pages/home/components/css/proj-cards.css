@@ -35,6 +35,7 @@
     font-size: 14px;
     color: #C84C5B;
     font-weight: 700;
+    cursor: pointer;
 }
 .arrow-icon{
     margin-left: 10px;

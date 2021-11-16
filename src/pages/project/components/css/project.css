@@ -1,0 +1,76 @@
+.project-body{
+    background-color: #23263A;
+    padding-top: 50px;
+    padding-left: 100px;
+    color: #c5a4a8;
+    padding-right: 150px;
+    padding-bottom: 40px;
+}
+.project-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.project-link{
+    color: #C84C5B;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.proj-btn-visit{
+    background-color: #C84C5B;
+    color: white;
+}
+.project-img-box{
+    background-color: #1f2235;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+.proj-img{
+    height: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+
+.project-description, .project-role, .project-techs, .project-pages {
+    margin-top: 30px;
+}
+
+.description-heading, .role-heading, .techs-heading{
+    font-weight: 600;
+    
+    font-size: 20px;
+}
+.description-body, .role-body, .techs-body{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+}
+.tech-col{
+    margin-bottom: 0px;
+}
+.fa-angle-double-right{
+    color: #C84C5B;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:768px){
+    .hideOnMobile{
+        display:none;
+    }
+    .project-body{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .project-title{
+        font-size: 30px;
+    }
+   .proj-img{
+        height: 200px;
+        
+   }
+   .project-img-box{
+       padding: 10px;
+   }
+}
