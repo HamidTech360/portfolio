@@ -10,6 +10,7 @@ const Project = (props) => {
     const [tech, setTech] = useState([])
     
     useEffect(()=>{
+        window.scrollTo(0, 0)
         const projectId = props.match.params.id
         const data = Data[projectId-1]
         setProjects(data)

@@ -28,11 +28,11 @@ const Banner1 = ()=>{
             <div className="banner1-text col-lg-6 col-md-6 col-sm-12 col-xs-12" id="banner1-text" style={{}}>
             <Fade duration={1000} bottom>
             <div className="fabs">
-                    <a href="https://github.com/HamidTech360" style={{textDecoration:'none'}}> <Fab style={FabStyles} className="fab">  <i className="fa fa-github fab-icons fa-2x" ></i> </Fab></a>
-                    <a href="https://api.whatsapp.com/send?phone=2347015713905&text=hi" style={{textDecoration:'none'}}> <Fab style={FabStyles}>  <i className="fa fa-whatsapp fab-icons fa-2x" ></i> </Fab></a>
-                    <a href="https://twitter.com/Hameed_360?t=rzVW6iMVrU-FThtmwWJpAQ&s=09" style={{textDecoration:'none'}}> <Fab style={FabStyles}> <i className="fa fa-twitter fab-icons fa-2x" ></i>  </Fab></a> 
-                    <a href="https://www.facebook.com/owolabi.hammed.3994" style={{textDecoration:'none'}}> <Fab style={FabStyles}>  <i className="fa fa-facebook fab-icons fa-2x" ></i> </Fab></a>
-                    <a href="https://www.linkedin.com/in/hammed-owolabi-a0038920a" style={{textDecoration:'none'}}> <Fab style={FabStyles}> <i className="fa fa-linkedin fab-icons fa-2x" ></i>  </Fab></a> 
+                    <a href="https://github.com/HamidTech360" style={{textDecoration:'none'}}> <Fab style={FabStyles} className="fab">  <i className="fa fa-github fab-icons fa-1x" ></i> </Fab></a>
+                    <a href="https://api.whatsapp.com/send?phone=2347015713905&text=hi" style={{textDecoration:'none'}}> <Fab style={FabStyles}>  <i className="fa fa-whatsapp fab-icons fa-1x" ></i> </Fab></a>
+                    <a href="https://twitter.com/Hameed_360?t=rzVW6iMVrU-FThtmwWJpAQ&s=09" style={{textDecoration:'none'}}> <Fab style={FabStyles}> <i className="fa fa-twitter fab-icons fa-1x" ></i>  </Fab></a> 
+                    <a href="https://www.facebook.com/owolabi.hammed.3994" style={{textDecoration:'none'}}> <Fab style={FabStyles}>  <i className="fa fa-facebook fab-icons fa-1x" ></i> </Fab></a>
+                    <a href="https://www.linkedin.com/in/hammed-owolabi-a0038920a" style={{textDecoration:'none'}}> <Fab style={FabStyles}> <i className="fa fa-linkedin fab-icons fa-1x" ></i>  </Fab></a> 
                 </div>
             </Fade>
                
