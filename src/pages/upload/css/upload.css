@@ -1,0 +1,41 @@
+.upload{
+    background-color: #23263A;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.file-box{
+    border: 2px solid #C84C5B !important;
+    color: white;
+    background-color: #1f2235;
+}
+.textArea{
+    background-color: #1f2235;
+    border: 1px solid #1f2235;
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    color: white;
+}
+.btn-upload{
+    background-color: #C84C5B ;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-upload:hover{
+    color: white;
+}
+.img-preview{
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .upload{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

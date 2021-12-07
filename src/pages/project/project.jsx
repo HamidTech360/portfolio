@@ -1,14 +1,12 @@
 import React, {useEffect, useState} from "react";
-import Link from 'react-router-dom'
+import Zoom from 'react-reveal'
 import Header from "../home/components/header";
 import Footer from '../home/components/footer'
 import Data from '../../projects.json'
 import './components/css/project.css'
 
 const Project = (props) => {
-    const [projects, setProjects] = useState([])
-    const [tech, setTech] = useState([])
-    
+   
     useEffect(()=>{
         window.scrollTo(0, 0)
         const projectId = props.match.params.id
@@ -18,8 +16,13 @@ const Project = (props) => {
 
         // console.log(tech);
     },[])
+
+    const [projects, setProjects] = useState([])
+    const [tech, setTech] = useState([])
+    
   
     return ( 
+        <Zoom duration={3000} clear>
         <div className="project-details">
             <Header/>
             <div className="project-body">
@@ -68,6 +71,7 @@ const Project = (props) => {
             </div>
             <Footer/>
         </div>
+        </Zoom>
      );
 }
  

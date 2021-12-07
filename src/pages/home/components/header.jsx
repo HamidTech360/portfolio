@@ -19,12 +19,12 @@ const Header = () => {
                     <li className="nav-item">About</li>
                 </Link>
 
-                <Link to="/skill" className="nav-link" style={{color:'white',textDecoration:'none', fontSize:'12px'}}> 
-                    <li className="nav-item">Skill</li>
+                <Link to="/login" className="nav-link" style={{color:'white',textDecoration:'none', fontSize:'12px'}}> 
+                    <li className="nav-item">Admin login</li>
                 </Link>
                 
-                <Link to="/portfolio" className="nav-link" style={{color:'white',textDecoration:'none', fontSize:'12px'}}> 
-                    <li className="nav-item">Portfolio</li>
+                <Link to="/register" className="nav-link" style={{color:'white',textDecoration:'none', fontSize:'12px'}}> 
+                    <li className="nav-item">Register as admin</li>
                 </Link>
             </ul>
         </div>

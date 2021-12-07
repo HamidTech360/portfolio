@@ -1,0 +1,9 @@
+#login{
+    height: 100vh;
+}
+.forgotPwd{
+    color: lightgrey;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}

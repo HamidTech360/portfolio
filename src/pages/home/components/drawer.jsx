@@ -41,15 +41,15 @@ const Drawer = ()=>{
             },
             {
                 id:2,
-                name:'Jobs',
-                link:'/',
+                name:'Register as admin',
+                link:'/#',
                 icon:'fa-balance-scale',
                 isActive:false
             },
             {
                 id:3,
-                name:'Tasks',
-                link:'/',
+                name:'Admin login',
+                link:'/#',
                 icon:'fa-user-md',
                 isActive:false
             }
@@ -81,13 +81,13 @@ const Drawer = ()=>{
         <Box
           sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : '100%' }}
           role="presentation"
-          onClick={toggleDrawer(anchor, false)}
-          onKeyDown={toggleDrawer(anchor, false)}
+          onClick={toggleDrawer('top', false)}
+          onKeyDown={toggleDrawer('top', false)}
           
         >
           <List>
                 {NavOptions.map((item, index) => (
-                    <div className="drawer-item" onClick={()=>handleNavigation(index)}  key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px'}}>
+                    <div className="drawer-item"  key={index} style={{ paddingLeft:'50px'}}>
                       <Link to={item.link} style={{textDecoration:'none', color:'white'}}>
                         <span className="drawer-item-icon"> <i className={`fa ${item.icon} fa-1x`}></i> </span>
                          <span className="drawer-item-text">{item.name}</span>

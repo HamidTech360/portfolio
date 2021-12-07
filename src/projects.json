@@ -11,7 +11,7 @@
         "details":"The next stage lab community is an online community of affiliate marketing, Freelancing, Cryptocurrency e.t.c. Users are required to create an account where they will have access to more options, such as Job postings and so on  ",
         "project_img":"",
         "pages":"Home, recipe details",
-        "image":"project-3.png",
+        "image":"tnsl2.png",
         "role":"I solely designed the front end and consumed the backend APIs"
     },
     {
@@ -26,7 +26,7 @@
         "details":"A blog website that enables the admin to upload posts including images. Users can comment and like any post",
         "project_img":"",
         "pages":"Home, post content, post, Upload file",
-        "image":"",
+        "image":"blog.png",
         "role":"I designed the Front end and backend of this website solely. I pushed the working version to production"
     },
     {

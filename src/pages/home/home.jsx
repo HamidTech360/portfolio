@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react'
+import Zoom  from 'react-reveal'
 import Banner1 from './components/banner1'
 import Header from './components/header'
 import Services from './components/our-services'
 import Cards from './components/cards'
 import AboutMe from './components/aboutme'
 import Experience from './components/experience'
-import ProjectCards from './components/proj-cards'
 import Footer from './components/footer'
-import ReactLoading from 'react-loading'
+
 
 
 
@@ -39,17 +39,19 @@ const Home = ()=>{
     // }
 
     return(
-        <div className="home-wrapper">
+       <Zoom duration={3000} clear>
+       <div className="home-wrapper">
           
-            <Header/>
-            <Banner1/>
-            <Services/> 
-            <Cards/>
-            <AboutMe/>
-            <Experience/>
-            <Footer/>
-            {/* <ProjectCards/> */}
-        </div>
+          <Header/>
+          <Banner1/>
+          <Services/> 
+          <Cards/>
+          <AboutMe/>
+          <Experience/>
+          <Footer/>
+          {/* <ProjectCards/> */}
+      </div>
+       </Zoom>
     
     )}
 export default Home;
