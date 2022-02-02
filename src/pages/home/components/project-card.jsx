@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 import './css/card.css'
 
-const ProjectCard = ({title, link, summary, tech, index, id, target})=>{
+const ProjectCard = ({title, link, summary, tech, index, id, target, apiDoc})=>{
 
     return(
         <div className="Card" style={{backgroundColor:'#1f2235'}}> 
@@ -13,7 +13,7 @@ const ProjectCard = ({title, link, summary, tech, index, id, target})=>{
             </Fade>
             <div className="card-title" id="proj-card-title"> {title} </div>
             <div className="project-link">
-                 <a href={target} style={{textDecoration:'none', color:'#C84C5B'}}>{link}</a> 
+                 <a href={apiDoc?apiDoc:target} style={{textDecoration:'none', color:'#C84C5B'}}>{link}</a> 
             </div>
             <div className="card-details" id="proj-card-details">
                 {summary}

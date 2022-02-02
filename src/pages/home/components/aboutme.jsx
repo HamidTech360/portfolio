@@ -1,9 +1,9 @@
 import React from 'react'
-import { Fade } from 'react-reveal';
+import Zoom from 'react-reveal';
 import './css/aboutme.css'
 const AboutMe = () => {
     return ( 
-       <Fade duration={1000} bottom>
+       <Zoom duration={1000} clear>
             <div className="our-service text-center">
             <div className="my-service-text">About Me</div>
              <div className="colored-divider"></div>
@@ -18,7 +18,7 @@ const AboutMe = () => {
            
         </div>
 
-       </Fade>
+       </Zoom>
      );
 }
  

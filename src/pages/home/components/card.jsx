@@ -20,7 +20,7 @@ const Card = ()=>{
                         </li>
                         <li className="tool-list-item">
                             <i className="fa fa-chevron-circle-right list-icons"></i>
-                            React, JQuery 
+                            React, Redux, Typescript, JQuery 
                         </li>
                         <li className="tool-list-item">
                             <i className="fa fa-chevron-circle-right list-icons"></i>

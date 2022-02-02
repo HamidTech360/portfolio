@@ -8,8 +8,7 @@ const Experience = () => {
            <div className="text-center">
                     <div className="my-service-text">Portfolio Show case</div>
                     <div className="service-details-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Odit neque velit perspiciatis labore sint possimus, laborum ea! Sit, doloribus perspiciatis.
+                       I build web applications with users-friendly frameworks and dependencies. I build with React, Typescript and Redux
                     </div>
                     <div className="colored-divider"></div>
             </div>

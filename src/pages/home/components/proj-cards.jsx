@@ -27,6 +27,7 @@ const ProjectCards = () => {
                                  tech={item.tech}
                                  index={item.index}                                
                                  target={item.target}
+                                 apiDoc={item.apiDocUrl?item.apiDocUrl:null}
                              />
                          </div>
                     </Zoom>

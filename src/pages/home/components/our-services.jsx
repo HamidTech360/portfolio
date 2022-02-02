@@ -1,19 +1,19 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade'
+import Zoom from 'react-reveal'
 import './css/services.css'
 const Services = ()=>{
     return(
-       <Fade duration={1000} bottom>
+       <Zoom duration={2000} clear>
             <div className="our-service text-center">
             <div className="colored-services-text">Services</div>
             <div className="my-service-text">My Services</div>
             <div className="service-details-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Odit neque velit perspiciatis labore sint possimus, laborum ea! Sit, doloribus perspiciatis.
+            I  design multifaceted technical solutions across a wide range software platforms. 
+                I have an excellent background as a web developer along with my academic education (Bsc. Computer science and engineering (OAU, Ile-Ife)).
             </div>
             <div className="colored-divider"></div>
         </div>
-       </Fade>
+       </Zoom>
     )
 }
 

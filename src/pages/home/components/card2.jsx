@@ -16,11 +16,11 @@ const Card2 = ()=>{
                     <ul className="tool-list">
                         <li className="tool-list-item">
                             <i className="fa fa-chevron-circle-right list-icons"></i>
-                            Node Js, Express
+                            Node Js, Typescript, Express
                         </li>
                         <li className="tool-list-item">
                             <i className="fa fa-chevron-circle-right list-icons"></i>
-                            PHP, PHP my admin
+                            PHP, PHPMyadmin
                         </li>
                         <li className="tool-list-item">
                             <i className="fa fa-chevron-circle-right list-icons"></i>
