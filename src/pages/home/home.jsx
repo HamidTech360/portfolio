@@ -7,7 +7,7 @@ import Cards from './components/cards'
 import AboutMe from './components/aboutme'
 import Experience from './components/experience'
 import Footer from './components/footer'
-
+import SimpleBackdrop from './components/backdrop'
 
 
 
@@ -15,28 +15,20 @@ import './components/css/home.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css'
 const Home = ()=>{
-    const [preloader, setPreloader] = useState(true)
+    const [open, setOpen] = useState(true)
    
     useEffect(()=>{
         
         setTimeout(() => {
-            setPreloader(false)
-        }, 200);
+            setOpen(false)
+        }, 1000);
     },[])
 
-    // if(preloader){
-    //     return (
-    //      <div className="preloader-box text-center">
-    //         <ReactLoading 
-    //             type="bars"
-    //             color="#C84C5B"
-    //             height={100}
-    //             width={100}
-             
-    //         />
-    //      </div>
-    //     )
-    // }
+  if(open){
+      return(
+          <SimpleBackdrop/>
+      )
+  }
 
     return(
        <Zoom duration={3000} clear>

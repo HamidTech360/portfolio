@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className="my-service-text">About Me</div>
              <div className="colored-divider"></div>
              <div className="img-box">
-                <img src="../../../assets/meda5.PNG" alt="my image" className="my-img-2" />
+                <img src="../../../assets/avatar.PNG" alt="my image" className="my-img-2" />
             </div>
             <div className="service-details-text">
                 I am a software developer experienced in designing multifaceted technical solutions across a wide range software. 
