@@ -27,7 +27,7 @@
     justify-content: center;
 }
 .proj-img{
-    height: 500px;
+    /* height: 500px; */
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
@@ -67,7 +67,7 @@
         font-size: 30px;
     }
    .proj-img{
-        height: 200px;
+        /* height: 200px; */
         
    }
    .project-img-box{
